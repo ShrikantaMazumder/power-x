@@ -1,6 +1,13 @@
 import React from 'react';
 import './Home.scss';
 import Navbar from '../Navbar/Navbar';
+import Workout from './Workout';
+import AboutUs from './AboutUs';
+import Training from './Training';
+import WhyUs from './WhyUs';
+import Footer from '../Footer/Footer';
+
+
 const Home = () => {
   return (
     <>
@@ -19,19 +26,13 @@ const Home = () => {
         {/* Image is missing */}
       </div>
     </header>
-    <section className="container">
-      <div className="row">
-        <div className="col-md-3 box">
-          <h1>PROGRESSION</h1>
-        </div>
-        <div className="col-md-3 box">
-          <h1>WORKOUT</h1>
-        </div>
-        <div className="col-md-3 box">
-          <h1>NUTRITION</h1>
-        </div>
-      </div>
-    </section>
+    
+      <Workout />
+      <AboutUs />
+      <Training />
+      <WhyUs />
+      
+      <Footer />
   </>
   );
 };
