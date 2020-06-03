@@ -10,6 +10,7 @@ const PaymentForm = () => {
           <div className="form-check">
             <input className="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked="" />
             <label className="font-weight-bold ml-3" for="exampleRadios1" id="credit-card-txt">Credit Card</label>
+            <p className="text-muted">Safe money transfer using your bank account. Visa, Master, Discover, American Express</p>
             </div>
             </div>
             <div className="form-group col-md-6 d-flex justify-content-end">
