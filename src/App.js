@@ -39,7 +39,7 @@ function App() {
 
         <Route path='/classes' component={Classes} />
 
-        <Route path='/classes/:id' component={ClassesDetails} />
+        {/* <Route path='/classes/:id' component={ClassesDetails} /> */}
 
        </Switch>
 
